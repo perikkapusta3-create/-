@@ -1,56 +1,51 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>С Днём милиции, Жора!</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: radial-gradient(circle, #1a2a6c, #b21f1f);
-      font-family: Arial, sans-serif;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      text-align: center;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(8px);
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-      max-width: 400px;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 1.5;
-    }
-    .badge {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 8px 16px;
-      background: #fff;
-      color: #b21f1f;
-      border-radius: 6px;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>С Днём милиции, Жора!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .greeting {
+            font-size: 1.4rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        button {
+            background-color: #ff4757;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.2s, background 0.3s;
+        }
+        button:hover {
+            background-color: #e84118;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-  <div class="card">
-    <h1>С Днём милиции!</h1>
-    <p>Жора, ты — настоящий страж порядка и спокойствия. Пусть служба будет спокойной, а результаты — заметными. Спасибо за твой труд!</p>
-    <div class="badge">Честь и отвага</div>
-  </div>
+    <h1>🎉 С Днём милиции! 🎉</h1>
+    <div class="greeting">
+        <p>Дорогой Жора, поздравляем тебя с профессиональным праздником!</p>
+        <p>Спасибо за твою службу, за спокойствие и порядок, которые ты помогаешь сохранять.</p>
+        <p>Пусть дежурства будут спокойными, а дома всегда ждут и любят.</p>
+    </div>
+    <button onclick="alert('С праздником, Жора! Пусть всё будет спокойно!')">Поздравить Жору</button>
 </body>
 </html>
